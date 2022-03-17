@@ -170,18 +170,21 @@ span.psw {
 <div id="id01" class="modal">
 
 
-  <form action="login.php"class="modal-content animate" action="/action_page.php" method="post">
+  <form action="login.php" class="modal-content animate" action="login.php" method="post">
     <div class="imgcontainer">
       <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
       <img src="avatr.jpg" alt="Avatar" class="avatar">
     </div>
 
     <div class="container">
-      <label for="uname"><b>Username</b></label>
-      <input type="text" placeholder="Enter Username" name="uname" required>
-
-      <label for="psw"><b>Password</b></label>
-      <input type="password" placeholder="Enter Password" name="psw" required>
+      <label for="Username"><b>Username:</b></label>
+      <input type="text" placeholder="Enter Username" name="Username">
+      <label for="E-email ID"><b>E-mail ID:</b></label>
+      <input type="text" .name="email" >
+      <label for="number">Phone Number</label>
+      <input type="number" name="Phone Number"><br>
+      <label for="password"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="Password" required>
 
       <button type="submit">Login</button>
       <label>
