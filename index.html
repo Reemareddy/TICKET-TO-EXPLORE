@@ -1,7 +1,14 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
+  <style>
+  body{
+    background-color: lightpink;
 
+
+  }
+
+  </style>
     <meta charset="utf-8">
     <title>TRAVEL AND EXPLORE</title>
     <style>
@@ -13,10 +20,15 @@
         outline:none;
         font-size: 40px;
         font-style: normal;
+        text-align: left;
 
     }
+    .button{
+
+      text-align: left;
+    }
     .button__text{
-      align-items:center;
+      align-items:right;
     }
 
     </style>
@@ -47,6 +59,7 @@ button {
   border: none;
   cursor: pointer;
   width: 100%;
+  text-align: left;
 }
 
 button:hover {
@@ -67,7 +80,7 @@ button:hover {
   position: relative;
 }
 
-img.avatar.jpg {
+img.avatr.jpg {
   width: 40%;
   border-radius: 50%;
 }
@@ -149,18 +162,18 @@ span.psw {
 </style>
 </head>
 <body>
+<br>
+<div class="button">
 
-
-
-<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
-
+<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;" align-button__text:center>Login</button>
+</div>
 <div id="id01" class="modal">
 
 
-  <form class="modal-content animate" action="/action_page.php" method="post">
+  <form action="login.php"class="modal-content animate" action="/action_page.php" method="post">
     <div class="imgcontainer">
       <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
-      <img src="img_avatar2.png" alt="Avatar" class="avatar">
+      <img src="avatr.jpg" alt="Avatar" class="avatar">
     </div>
 
     <div class="container">
@@ -194,7 +207,18 @@ window.onclick = function(event) {
     }
 }
 </script>
-    <h1 style="font-size:60px";><u>TRAVEL AND EXPLORE</u></h1>
+
+<style media="screen">
+  .TRAVEL AND EXPLORE{
+    color: green;
+    text-align: center;
+  }
+</style>
+
+<div class="TRAVEL AND EXPLORE">
+
+</div>
+    <h1 style="color:green;"><u>TRAVEL AND EXPLORE</u></h1>
 
 
 <p>A monument is something such as a castle or bridge which was built a very long time ago and is regarded as an important part of a country's history.
@@ -203,7 +227,8 @@ Monuments remind us of our heritage. They are like a treasure for a nation and s
 
 <h3><em>LIST OF MONUMENTS</em></h3>
 
-<table border="2">
+
+<table border="1">
 
 <tr>
   <td>golconda</td>
@@ -227,7 +252,7 @@ Monuments remind us of our heritage. They are like a treasure for a nation and s
 </tr>
  </table>
 
- <h1 style="color:tomato;">THE MONUMENTS IN HYDERABAD TO VISIT</h1>
+ <h1 style="color:blue;" style="font-size:30px;">THE MONUMENTS IN HYDERABAD TO VISIT</h1>
  <br>
  <h1><strong><u>CHARMINAR</u></strong></h1>
  <center>
